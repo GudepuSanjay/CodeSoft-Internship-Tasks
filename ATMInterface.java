@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
 public class ATMInterface {
+
     static Long total_amt = 0L;
     static Long amt;
     static Scanner reads = new Scanner(System.in);
@@ -41,11 +41,9 @@ public class ATMInterface {
         System.out.println("2. DEPOSIT AMOUNT");
         System.out.println("3. CHECK BALANCE");
         System.out.println("4. EXIT");
-        
-        
+
         System.out.println("ENTER YOUR CHOICE:");
         int response = reads.nextInt();
-        
         switch (response) {
             case 1:
                 atm.withdraw(); 
@@ -65,7 +63,6 @@ public class ATMInterface {
                 break;
         }
     }
-    
     }
    
 }
