@@ -31,7 +31,6 @@ public class ATMInterface {
     }
 
     public static void main(String[] args) {
-        // Use the correct class name ATMInterface instead of ScannerExample
         ATMInterface atm = new ATMInterface();
         boolean condition=true;
        while(condition){
@@ -49,13 +48,13 @@ public class ATMInterface {
         
         switch (response) {
             case 1:
-                atm.withdraw(); // Correct instance to call withdraw method
+                atm.withdraw(); 
                 break;
             case 2:
-                atm.deposit();  // Correct instance to call deposit method
+                atm.deposit();  
                 break;
             case 3:
-                atm.checkbalance(); // Correct instance to call checkbalance method
+                atm.checkbalance();
                 break;
             case 4:
                 System.out.println("THANK YOU FOR USING SBJ ATM!");
